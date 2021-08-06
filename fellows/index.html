@@ -7,6 +7,7 @@ permalink: /fellows/
 pagination:
   enabled: true
   collection: fellows
+  sort_field: 'fellow_year'
 ---
 
 {% include_cached fellow-list.html fellows=paginator.posts %}
